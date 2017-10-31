@@ -158,6 +158,7 @@ def getProfile():
 
 @app.route('/signUp',methods=['POST','GET'])
 def signUp():
+    
     return render_template('index.html')
     # print ("/../" + request.form['filePath1'])
 
